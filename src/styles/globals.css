@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .titr {
+      @apply text-4xl font-bold
+    }
+    .li::before {
+      content: "• ";
+      color: #53c60b;
+    }
+   
+  }
