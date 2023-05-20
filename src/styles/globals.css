@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @layer components {
-    .titr {
-      @apply text-4xl font-bold
-    }
-    .li::before {
-      content: "• ";
-      color: #53c60b;
-    }
-   
+  .titr {
+    @apply text-4xl font-bold;
   }
+  .li::before {
+    content: "• ";
+    color: #53c60b;
+  }
+  .nthBg:nth-child(odd) {
+    background-color: #bcff93;
+  }
+  .nthBg:nth-child(even) {
+    background-color:  #e8ffdb;
+  }
+}

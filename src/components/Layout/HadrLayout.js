@@ -8,11 +8,11 @@ export default function HadrLayout({ children }) {
       <header className="container mx-auto flex items-center">
         <div className="basis-6/12">
           <h1 className="titr text-ghaleb-lime">
-            <Link href="">BotoFood</Link>
+            <Link href="/">BotoFood</Link>
           </h1>
         </div>
         <div className="basis-6/12 flex justify-end gap-3 font-bold">
-          <Link href="/menu-page">Menu</Link>
+          <Link href="/menu">Menu</Link>
           <Link href="">Categories</Link>
         </div>
       </header>
